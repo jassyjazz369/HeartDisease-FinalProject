@@ -23,3 +23,15 @@ Figures: The code for the cholesterol distribution histogram and maximum heart r
 
 ## Data Source
 The dataset is from the UCI Machine Learning Repository, Statlog Heart dataset.
+
+## Synchronizing the Package Environment
+This project uses renv to manage the R packages needed to generate the report.
+To synchronize the package environment, open the terminal in the project directory and run:
+    make install
+This will restore the packages and versions recorded in the renv.lock file.
+
+## Generating the Report
+To generate the report, run:
+    make
+To remove the generated report, run:
+    make clean
